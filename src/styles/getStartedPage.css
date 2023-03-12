@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.linkStyling{
+    color: white;
+    text-decoration: none;
+}
+.getStartedContainer{
+    width: 100%;
+    height: 100vh;
+}
+.saylaniWelfareText{
+    color: #61B846;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 34px;
+}
+.onlineMArketPlaceText{
+    color: #024F9D;
+    font-size: 18px;
+}

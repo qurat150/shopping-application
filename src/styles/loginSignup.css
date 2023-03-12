@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linkStyling{
+    color: white;
+    text-decoration: none;
+}
+.main-signup{
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+}
+.saylaniWelfareTextLoginSignup{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #61B846;
+}
+.onlineMArketPlaceTextLoginSignup{
+    color: #024F9D;
+    font-size: 18px;
+}
+.textFields, .btn-signup{
+    width: 20rem;
+}
