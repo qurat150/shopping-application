@@ -59,7 +59,7 @@ const Signup = (props) => {
           type="password"
           autoComplete="current-password"
         />
-        <Link to="/login">Don't have an account</Link>
+        <Link to="/login">Already have an account</Link>
         <FormControl>
           <RadioGroup
             row

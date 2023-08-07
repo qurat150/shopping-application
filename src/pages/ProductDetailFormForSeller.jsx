@@ -64,7 +64,13 @@ function ProductDetailFormForSeller(props) {
     });
   };
 
+  const goToHome = () =>{
+    navigate("/productListForBuyer");
+
+  }
+
   const addProductHandler = () => {
+
     const storage = getStorage();
     const fileName = productData.file.name + Date.now();
 
@@ -90,6 +96,7 @@ function ProductDetailFormForSeller(props) {
         });
       }
     );
+    alert("you will be able to see your product in our website when Admin will approve!")
   };
   return (
     <>
@@ -151,9 +158,9 @@ function ProductDetailFormForSeller(props) {
             variant="outlined"
           />
         </div>
-        <div>Product will send to Admin for approval.</div>
+        <div style={{color: "green", fontWeight: "bold"}}>Product will send to Admin for approval.</div>
         <DialogActions>
-          <Button onClick={props.handleClose}>Cancel</Button>
+          <Button onClick={goToHome}>Close</Button>
           <Button
             variant="contained"
             onClick={() => {
